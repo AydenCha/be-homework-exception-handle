@@ -3,7 +3,7 @@ package com.springboot.coffee.dto;
 import com.springboot.validator.NotSpace;
 import org.hibernate.validator.constraints.Range;
 
-import javax.validation.constraints.Pattern;
+import jakarta.validation.constraints.Pattern;
 
 public class CoffeePatchDto {
     private long coffeeId;

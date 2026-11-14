@@ -1,6 +1,6 @@
 package com.springboot.order;
 
-import javax.validation.constraints.Positive;
+import jakarta.validation.constraints.Positive;
 
 public class OrderPostDto {
     @Positive

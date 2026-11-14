@@ -2,7 +2,7 @@ package com.springboot.member.dto;
 
 import com.springboot.validator.NotSpace;
 
-import javax.validation.constraints.Pattern;
+import jakarta.validation.constraints.Pattern;
 
 public class MemberPatchDto {
     private long memberId;
